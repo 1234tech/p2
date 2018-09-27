@@ -27,6 +27,8 @@
     <input type="radio" name="no" value="no">No<br/>
     <br />
     <input type="button" value="Find me food!">
+
+    //submit using $_GET
 </form>
 
 <p class="warn">This website is not approved by the FDA.  Please read the labels on all the food packaging before eating.</p>

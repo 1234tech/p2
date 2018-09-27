@@ -1,2 +1,9 @@
-# p2
-Project 2
+# Project 1
++ By: Stacy Schermann
++ Production URL: <http://p2.sandboxtestsite.com>
+
+## Outside resources
+
+
+
+## Notes for instructor
