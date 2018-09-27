@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Project 2</title>
-    <link rel="stylesheet" href="css/p2stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="css/p2stylesheet.css" type="text/css"/>
 </head>
 
 <body>
@@ -13,18 +13,18 @@
 <form>
     <label>My name is:</label>
     <input type="text">
-    <br />
-    <br />
-    <label>I need to avoid foods that contain:</label><br />
-    <input type="checkbox" name="lactose" value="gluten">Dairy / Lactose / Casein<br />
-    <input type="checkbox" name="gluten" value="gluten">Gluten<br />
-    <input type="checkbox" name="seafood" value="seafood">Seafood<br />
-    <input type="checkbox" name="mushrooms" value="mushrooms">Mushrooms<br />
-    <br />
-    <br />
-    <label>Are you vegan?</label><br />
-    <input type="radio" name="yes" value="yes">Yes<br />
-    <input type="radio" name="no" value="no">No<br />
+    <br/>
+    <br/>
+    <label>I need to avoid foods that contain:</label><br/>
+    <input type="checkbox" name="lactose" value="gluten">Dairy / Lactose / Casein<br/>
+    <input type="checkbox" name="gluten" value="gluten">Gluten<br/>
+    <input type="checkbox" name="seafood" value="seafood">Seafood<br/>
+    <input type="checkbox" name="mushrooms" value="mushrooms">Mushrooms<br/>
+    <br/>
+    <br/>
+    <label>Are you vegan?</label><br/>
+    <input type="radio" name="yes" value="yes">Yes<br/>
+    <input type="radio" name="no" value="no">No<br/>
 
     <input type="button" value="Find me food!">
 </form>
