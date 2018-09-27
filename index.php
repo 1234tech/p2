@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Project 2</title>
-    <link rel="stylesheet" href="css/p2stylesheet.css" type="text/css"/>
+    <link rel="stylesheet" href="p2stylesheet.css" type="text/css"/>
 </head>
 
 <body>
@@ -25,9 +25,11 @@
     <label>Are you vegan?</label><br/>
     <input type="radio" name="yes" value="yes">Yes<br/>
     <input type="radio" name="no" value="no">No<br/>
-
+    <br />
     <input type="button" value="Find me food!">
 </form>
+
+<p class="warn">This website is not approved by the FDA.  Please read the labels on all the food packaging before eating.</p>
 
 
 </body>

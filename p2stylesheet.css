@@ -1,0 +1,9 @@
+body {
+    width: 50%;
+    padding: 1em 5em;
+}
+
+p.warn {
+    background-color: lightpink;
+}
+
