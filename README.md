@@ -1,4 +1,4 @@
-# Project 1
+# Project 2
 + By: Stacy Schermann
 + Production URL: <http://p2.sandboxtestsite.com>
 
