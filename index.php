@@ -1,38 +1,63 @@
+<?php
+
+require 'logic.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Project 2</title>
-    <link rel="stylesheet" href="p2stylesheet.css" type="text/css"/>
+    <title>Hypo-allergenic eating</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 
 <body>
 
 <h1>What can I eat?</h1>
 
-<form>
-    <label>My name is:</label>
-    <input type="text">
-    <br/>
-    <br/>
-    <label>I need to avoid foods that contain:</label><br/>
-    <input type="checkbox" name="lactose" value="gluten">Dairy / Lactose / Casein<br/>
-    <input type="checkbox" name="gluten" value="gluten">Gluten<br/>
-    <input type="checkbox" name="seafood" value="seafood">Seafood<br/>
-    <input type="checkbox" name="mushrooms" value="mushrooms">Mushrooms<br/>
-    <br/>
-    <br/>
-    <label>Are you vegan?</label><br/>
-    <input type="radio" name="yes" value="yes">Yes<br/>
-    <input type="radio" name="no" value="no">No<br/>
-    <br />
-    <input type="button" value="Find me food!">
+<p>This application will help those who have food allergies, food intolerances, and dietary restrictions
+    to be able to find food that they can eat safely. The list is not inclusive of all foods.</p>
 
-    //submit using $_GET
+<p class="caution">Please note: This website is not approved by the FDA. Please read the labels on all the food
+    packaging before eating.
+    Also, by clicking the "Find food" button, you agree that this website and it's creator are not liable.</p>
+
+<form method="GET" action="results.php">
+    <fieldset class="outsideBorder">
+        <fieldset class="insideBorder">
+            <label>My name is:
+                <input type="text" name="username" required>
+            </label>
+        </fieldset>
+        <fieldset class="insideBorder">
+            <label>I need to avoid foods that contain:</label><br/>
+            <label>
+                <input type="checkbox" name="lactose" value="lactose">
+            </label>Dairy / Lactose / Casein<br/>
+            <label>
+                <input type="checkbox" name="gluten" value="gluten">
+            </label>Gluten<br/>
+            <label>
+                <input type="checkbox" name="mushrooms" value="mushrooms">
+            </label>Mushrooms<br/>
+            <label>
+                <input type="checkbox" name="seafood" value="seafood">
+            </label>Seafood<br/>
+        </fieldset>
+        <fieldset class="insideBorder">
+            <label>Are you a vegetarian?</label><br/>
+            <label>
+                <input type="radio" value="yesMeat" name="yesMeat">
+            </label>No<br/>
+            <label>
+                <input type="radio" value="noMeat" name="noMeat"></label>Yes<br/>
+        </fieldset>
+        <input type="submit" value="Find food!" name="button">
+
 </form>
-
-<p class="warn">This website is not approved by the FDA.  Please read the labels on all the food packaging before eating.</p>
-
 
 </body>
 </html>

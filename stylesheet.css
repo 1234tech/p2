@@ -1,0 +1,21 @@
+body {
+    width: 50%;
+    padding: 1em 5em;
+    font-family: sans-serif;
+}
+
+p.caution {
+    background-color: lightyellow;
+}
+
+div {
+    border: solid black;
+}
+
+fieldset.insideBorder {
+    border: none;
+}
+
+fieldset.outsideBorder {
+    border: thin dashed;
+}
